@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+        <title>Testing PyScript</title>
+    </head>
+    <body>
+        <h1>Names</h1>
+        <ul>
+            <py-script>
+names = [
+    'Carlos',
+    'Marcelo',
+    'Roger',
+    'Claudio'
+]
+
+for name in names:
+    print("<li>{}</li>".format(name))
+
+            </py-script>
+        </ul>
+
+
+        <hr>
+        <h1>Names Uppercase</h1>
+        <ul>
+            <py-script src="/main.py"> </py-script>
+        </ul>
+    </body>
+</html>
