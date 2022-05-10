@@ -1,0 +1,36 @@
+body {
+    background: #c3c3c5;
+}
+
+header#menu-header {
+    display: block ruby;
+
+    color: #fff;
+    background: #123;
+}
+
+header#menu-header .items-menu div{
+    margin: 1rem;
+}
+
+section.content {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    
+    margin: 2rem 0;
+}
+
+section.content h1 {
+    font-weight: bold;
+    font-size: 1rem;
+
+    text-align: center;
+    width: 70rem;
+}
+
+section.content #chart > div {
+    display: flex;
+    justify-content: center;
+}
