@@ -11,6 +11,11 @@
         <title>Home</title>
 
         <link rel="stylesheet" href="./styles/menu.css"/>
+
+        <py-env>
+            - numpy
+            - matplotlib
+        </py-env>
     </head>
     <body>
         <header id="menu-header">
@@ -23,8 +28,9 @@ for item in menu:
         </header>
         <section class="content">
             <div>
-                <h1>Testing PyScript 🐍</h1>
-                <p>This is the repository of pyscript studies which is python for browsers.</p>
+                <h1>Matplotlib</h1>
+                <div id="chart"></div>
+                <py-script src="/python/matplotlib.py" output="chart"></py-script>
             </div>
         </section>
     </body>
